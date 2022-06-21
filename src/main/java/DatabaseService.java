@@ -61,7 +61,7 @@ public class DatabaseService {
             }
             query+= "where id="+user.getId();
             statement.execute(query);
-            System.out.println("User edited");
+            System.out.println("User edited aa");
         }
     }
 }
